@@ -25,7 +25,8 @@ export default {
     return {
       localCount: 0,
       movies: this.$store.getters.singleMovies(3),
-      message: 'abc'
+      message1: 'abc',
+      message2: '123'
     };
   },
   components: {
