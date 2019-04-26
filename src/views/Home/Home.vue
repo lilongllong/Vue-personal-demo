@@ -25,7 +25,7 @@ export default {
     return {
       localCount: 0,
       movies: this.$store.getters.singleMovies(3),
-      message1: 'ab',
+      message1: 'a',
       message2: '123'
     };
   },
